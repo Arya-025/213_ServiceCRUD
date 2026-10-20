@@ -10,3 +10,11 @@ app.use(
         extended: true,
     })
 )
+const pool = new Pool({
+    user: 'postgres',
+    host: 'localhost',
+    database: 'mahasiswa1',
+    password: 'R@y310706',
+    port: 5432,
+})
+
